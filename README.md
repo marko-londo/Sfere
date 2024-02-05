@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img src="https://github.com/marko-londo/Sfere/blob/main/App/Pages/Images/home.jpg?raw=true">
+	<img src="https://github.com/marko-londo/Sfere/blob/main/Images/home.jpg?raw=true">
 </h1>
 <h1 align="center">
 	<b>Sfere</b>
