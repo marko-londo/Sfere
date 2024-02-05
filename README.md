@@ -361,12 +361,12 @@ An interactive application was developed using Streamlit to showcase the finding
 
 - **Dynamic Text Generation**:
   - Leverages a fine-tuned GPT2LMHeadModel for generating narrative text that
-    echoes the style of "The Dying Earth" at the push of a button.
+    echoes the style of "The Dying Earth" at the push of a button:
   
 ![Generated Text](Images/model_demo01.png)
 
 - **Explanation with LIME**:
-  - Implements a bar graph using [LIME (Local Interpretable Model-agnostic Explanations)](https://github.com/marcotcr/lime) to display the top ten words from the generated text, sorted by feature importance. This visualization helps users understand which words most influence the stylistic alignment with the series.
+  - Implements a bar graph using [LIME (Local Interpretable Model-agnostic Explanations)](https://github.com/marcotcr/lime) to display the top ten words from the generated text, sorted by feature importance. This visualization helps users understand which words most influence the stylistic alignment with the series:
   
 ![LIME](Images/model_demo02.png)
 
@@ -374,13 +374,13 @@ An interactive application was developed using Streamlit to showcase the finding
 
 - **Engagement with User Creativity**: Users can challenge the AI by submitting
   their own writing to see how closely it aligns (or doesn't) with the "Dying
-  Earth" style, or test it on excerpts from different books.
+  Earth" style, or test it on excerpts from different books:
   
 ![User Experience](Images/model_demo03.png)
 
 - **Feedback and Learning**: The app offers feedback on stylistic resemblance and a sentence-by-sentence probability breakdown.
 
-Each feature integrates Vance's rich narrative world with AI technology, providing an interactive platform for both literary exploration and the advancement of AI-driven textual analysis.
+Each feature integrates Vance's rich narrative world with AI technology, providing an interactive platform for both literary exploration and the advancement of AI-driven textual analysis:
 
 ![User Experience](Images/model_demo04.png)
 
@@ -410,7 +410,7 @@ experience with the AI-driven text generation feature.
 - **Challenging the Predictor**:
   - Test the robustness of the AI-driven predictor by providing it with random excerpts from various novels outside "The Dying Earth" series.
 
-Strengthen user engagement with a user-friendly button that generates a random excerpt from a diverse collection of novels in your resources.
+Strengthen user engagement with a user-friendly button that generates a random excerpt from a diverse collection of novels:
 
 ![Other Worlds](Images/model_demo05.png)
 
@@ -418,12 +418,11 @@ Strengthen user engagement with a user-friendly button that generates a random e
   - Leverage the underlying model to analyze the stylistic alignment of the
     randomly generated text, showcasing the model's accurate prediction when
     the provided excerpt does not adhere to the "Dying Earth" series style.
-  
 
 - **Results Interpretation**:
   - Clearly present the results, highlighting the model's proficiency in correctly identifying and distinguishing text that deviates from Vance's writing style.
 
-
+![Other Worlds Feature Importance](Images/model_demo06.png)
 
 ### Future Development
 
