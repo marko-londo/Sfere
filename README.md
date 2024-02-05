@@ -398,6 +398,7 @@ Upon completion, the tool provides the option to download the processed text as 
 
 Feel free to explore the capabilities of the Text Processor and enhance your document handling workflow!
 
+___
 
 #### Interactive Network Graph:
 
@@ -405,6 +406,8 @@ Feel free to explore the capabilities of the Text Processor and enhance your doc
 - **Connection Insights**: Explore the intricate relationships of the narrative universe of Jack Vance through Named Entity Recognition (NER)
 
 ![Network Graph](Images/network_graph_demo.png)
+
+___
 
 #### AI-Driven Text Generation and Analysis:
 
@@ -418,6 +421,8 @@ Feel free to explore the capabilities of the Text Processor and enhance your doc
   - Implements a bar graph using [LIME (Local Interpretable Model-agnostic Explanations)](https://github.com/marcotcr/lime) to display the top ten words from the generated text, sorted by feature importance. This visualization helps users understand which words most influence the stylistic alignment with the series:
   
 ![LIME](Images/model_demo02.png)
+
+___
 
 #### User Text Analysis:
 
@@ -453,6 +458,8 @@ Each feature integrates Vance's rich narrative world with AI technology, providi
 This solution not only addressed the challenge of creating random yet pertinent
 prompts but also added an element of surprise and novelty to the user's
 experience with the AI-driven text generation feature.
+
+___
 
 #### Generating Text from Other Books:
 
