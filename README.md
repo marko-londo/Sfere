@@ -355,7 +355,7 @@ An interactive application was developed using Streamlit to showcase the finding
 - **Visual Exploration**: - Navigate an advanced interactive network graph displaying named entities like 'Person', 'Location', 'Facility', and 'Nationality or Religious or Political group', illustrating their connections.
 - **Connection Insights**: Explore the intricate relationships of the narrative universe of Jack Vance through Named Entity Recognition (NER)
 
-![Network Graph](https://github.com/marko-londo/Dying-Earth/blob/main/Images/network_graph_demo.png?raw=true)
+![Network Graph](https://github.com/marko-londo/Sfere/blob/main/App/Pages/Images/network_graph_demo.png?raw=true)
 
 #### AI-Driven Text Generation and Analysis:
 
@@ -363,12 +363,12 @@ An interactive application was developed using Streamlit to showcase the finding
   - Leverages a fine-tuned GPT2LMHeadModel for generating narrative text that
     echoes the style of "The Dying Earth" at the push of a button.
   
-![Generated Text](https://github.com/marko-londo/Dying-Earth/blob/main/Images/model_demo01.png?raw=true)
+![Generated Text](https://github.com/marko-londo/Sfere/blob/main/App/Pages/Images/model_demo01.png?raw=true)
 
 - **Explanation with LIME**:
   - Implements a bar graph using [LIME (Local Interpretable Model-agnostic Explanations)](https://github.com/marcotcr/lime) to display the top ten words from the generated text, sorted by feature importance. This visualization helps users understand which words most influence the stylistic alignment with the series.
   
-![LIME](https://github.com/marko-londo/Dying-Earth/blob/main/Images/model_demo02.png?raw=true)
+![LIME](https://github.com/marko-londo/Sfere/blob/main/App/Pages/Images/model_demo02.png?raw=true)
 
 #### User Text Analysis:
 
@@ -376,13 +376,13 @@ An interactive application was developed using Streamlit to showcase the finding
   their own writing to see how closely it aligns (or doesn't) with the "Dying
   Earth" style, or test it on excerpts from different books.
   
-![User Experience](https://github.com/marko-londo/Dying-Earth/blob/main/Images/model_demo03.png?raw=true)
+![User Experience](https://github.com/marko-londo/Sfere/blob/main/App/Pages/Images/model_demo03.png?raw=true)
 
 - **Feedback and Learning**: The app offers feedback on stylistic resemblance and a sentence-by-sentence probability breakdown.
 
 Each feature integrates Vance's rich narrative world with AI technology, providing an interactive platform for both literary exploration and the advancement of AI-driven textual analysis.
 
-![User Experience](https://github.com/marko-londo/Dying-Earth/blob/main/Images/model_demo04.png?raw=true)
+![User Experience](https://github.com/marko-londo/Sfere/blob/main/App/Pages/Images/model_demo04.png?raw=true)
 
 #### Challenge:
 
