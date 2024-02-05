@@ -406,7 +406,7 @@ prompts but also added an element of surprise and novelty to the user's
 experience with the AI-driven text generation feature.
 
 
-### Future Development Section in Documentation:
+### Future Development
 
   - NER process refinement.
   - Image generation in conjunction with text generation.
