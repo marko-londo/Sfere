@@ -348,6 +348,8 @@ An interactive application was developed using Streamlit to showcase the finding
   - An open-source app framework for Machine Learning and Data Science projects.
   - For more details on Streamlit, visit their documentation: [Streamlit Documentation](https://docs.streamlit.io/)
 
+___
+
 ### Features of the App
 
 #### Text Processor
