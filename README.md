@@ -405,56 +405,9 @@ This solution not only addressed the challenge of creating random yet pertinent
 prompts but also added an element of surprise and novelty to the user's
 experience with the AI-driven text generation feature.
 
-## To-do List
 
-### Feature Development for Text Analyzer Model:
+### Future Development Section in Documentation:
 
-- Add a sample "Not Dying Earth" text for the text analyzer model feature.
-- Include sample generated images to serve as examples for the future implementation of the image generation feature.
-
-### App Feature Enhancement:
-
-- Develop a Named Entity Recognition (NER) feature with a "Select by Book" option.
-- Implement a text summarization feature.
-- Add a key phrase extraction and visualization feature.
-- Enhance the data cleaning feature to extract text from PDFs and include a file uploader.
-
-### Testing and Debugging:
-
-- Conduct comprehensive testing for each new feature.
-- Debug any issues identified during testing.
-- Perform end-to-end testing of the entire application.
-
-### App Documentation Updates:
-
-- Update documentation to include all new features and the "Select by Book" option.
-- Add detailed "How to Use" instructions and examples.
-- Document known issues and troubleshooting steps.
-- Include examples of what is happening on the backend in the data cleaning feature section.
-
-### Model Deployment:
-
-- Push all developed models to Hugging Face.
-
-### App Containerization and Deployment:
-
-- Dockerize the application.
-- Deploy the app, preferably on Paperspace.
-
-### Finalize Documentation:
-
-- Ensure documentation is comprehensive and user-friendly.
-- Include a section for troubleshooting and common issues.
-
-### Develop a Detailed Presentation:
-
-- Create a comprehensive presentation with slides on the "Dying Earth" series.
-- Detail the Sfere app's functionalities, implementation, and real-world applications.
-- Include a slide on the initial project idea, how it was critiqued, and how this feedback inspired a change in the idea.
-
-### Add a Future Development Section in Documentation:
-
-- Add a section on future developments or potential implementations, covering:
   - NER process refinement.
   - Image generation in conjunction with text generation.
   - Genre detection.
@@ -471,9 +424,3 @@ experience with the AI-driven text generation feature.
   - Planning for sustainability and scalability.
   - Feature for translating bodies of text into different languages.
   - Development of an automated chatbot assistant to help users navigate the app.
-
-### Time Permitting:
-
-- Refine NER for the remaining Dying Earth books.
-- Perfect the logo design.
-- Develop an engaging and memorable tagline.
