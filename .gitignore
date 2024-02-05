@@ -1,0 +1,6 @@
+# .gitignore for Sfere
+
+# Ignore the "Models" and "Resources" folders
+
+Models/
+Resources/
