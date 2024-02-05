@@ -350,6 +350,57 @@ An interactive application was developed using Streamlit to showcase the finding
 
 ### Features of the App
 
+#### Text Processor
+
+The **Text Processor** is an interactive tool designed for efficient document handling. Powered by Streamlit, it provides a user-friendly interface for processing and extracting text from PDF documents. The tool offers various functionalities such as paragraph formatting, text manipulation, and content analysis.
+
+## Usage
+
+- **Uploading a PDF File**:
+
+1. Begin by uploading a PDF file using the provided file uploader.
+2. After uploading, the tool displays various options for formatting the PDF file.
+
+- **PDF Processing Options**:
+
+The Text Processor provides users with multiple formatting options to customize the extraction process. Users can choose from the following paragraph formatting options:
+
+- **Format 1:** Joins text blocks, adding paragraphs after periods for well-defined sentence structures.
+- **Format 2:** Groups text blocks into paragraphs based on punctuation and capital letters.
+- **Format 3:** Enforces paragraph breaks strictly at punctuation marks and at the start of new pages.
+- **Format 4:** Uses punctuation for paragraph breaks, omits automatic page breaks, and ignores headers and footers.
+
+Users can further refine the extracted text using a set of checkboxes:
+
+- **Select number of initial pages to skip:** Removes the first n pages from
+  the PDF.
+- **Select number of initial lines to skip:** Removes the first n lines from
+  the PDF.
+- **Remove Links:** Eliminates hyperlinks from the text.
+- **Remove Chapter Headers:** Removes chapter headers from the text.
+- **Expand Contractions:** Expands contractions present in the text.
+- **Remove Page Headers:** Eliminates page headers and lines containing only numbers.
+- **Remove All Linebreaks:** Replaces all linebreaks with spaces.
+- **Remove Section Headers:** Removes Roman numerals at the start of lines and lines starting with 'PART'.
+- **Remove Numbers at Start of Sentences:** Eliminates numbers from the beginning of sentences.
+- **Remove ALL-CAPS Words:** Converts strings of words in all caps to just the first word capitalized.
+- **Remove Words:** Allows users to remove specific words or phrases from the text.
+- **Replace Words:** Allows users to replace specific words or sentences with new text.
+
+Users can select multiple processing options to tailor the output according to their needs.
+
+- **Downloading Processed Text**:
+
+Upon completion, the tool provides the option to download the processed text as a `.txt` file.
+
+- **PyMuPDF**: 
+  - The Text Processor is implemented in Python using Streamlit for the user interface. It incorporates PDF processing functions from the PyMuPDF (fitz) library and includes various text manipulation functions. The tool allows users to dynamically configure processing options, providing a versatile and user-friendly experience.
+  - For more details on PyMuPDF, visit their documentation: [PyMuPDF Documentation](https://pymupdf.readthedocs.io/en/latest/)
+
+
+Feel free to explore the capabilities of the Text Processor and enhance your document handling workflow!
+
+
 #### Interactive Network Graph:
 
 - **Visual Exploration**: - Navigate an advanced interactive network graph displaying named entities like 'Person', 'Location', 'Facility', and 'Nationality or Religious or Political group', illustrating their connections.
