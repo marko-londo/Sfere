@@ -1,7 +1,7 @@
 import streamlit as st
 
 def show():
-    image_url = "https://github.com/marko-londo/Sfere/raw/main/Images/home.jpg"
+    image_url = "https://raw.githubusercontent.com/marko-londo/Sfere/main/App/Pages/Images/home.jpg"
     
     # Center the image using custom CSS
     st.write(

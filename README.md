@@ -6,7 +6,7 @@
 <br>
 </h1>
 <h2 align="center">
-    <em>NLP Insight Solutions for a Digital Earth</em>
+    <em>NLP Solutions for a Digital Earth</em>
 </h2>
 <br>
 <br>
@@ -49,8 +49,8 @@
       - [Interactive Network Graph](#interactive-network-graph)
       - [AI-Driven Text Generation and Analysis](#ai-driven-text-generation-and-analysis)
       - [User Text Analysis](#user-text-analysis)
-      - [Challenge](#challenge)
-      - [Solution](#solution)
+        - [Challenge](#challenge)
+        - [Solution](#solution)
 
 
 
@@ -405,6 +405,26 @@ This solution not only addressed the challenge of creating random yet pertinent
 prompts but also added an element of surprise and novelty to the user's
 experience with the AI-driven text generation feature.
 
+#### Generating Text from Other Books:
+
+- **Challenging the Predictor**:
+  - Test the robustness of the AI-driven predictor by providing it with random excerpts from various novels outside "The Dying Earth" series.
+
+Strengthen user engagement with a user-friendly button that generates a random excerpt from a diverse collection of novels in your resources.
+
+![Other Worlds](https://github.com/marko-londo/Sfere/blob/main/App/Pages/Images/model_demo05.png?raw=true)
+
+- **Stylistic Analysis**:
+  - Leverage the underlying model to analyze the stylistic alignment of the
+    randomly generated text, showcasing the model's accurate prediction when
+    the provided excerpt does not adhere to the "Dying Earth" series style.
+  
+![Stylistic Analysis](https://github.com/marko-londo/Sfere/blob/main/App/Pages/Images/model_demo06.png?raw=true)
+
+- **Results Interpretation**:
+  - Clearly present the results, highlighting the model's proficiency in correctly identifying and distinguishing text that deviates from Vance's writing style.
+
+![Analysis Results](https://github.com/marko-londo/Sfere/blob/main/App/Pages/Images/model_demo07.png?raw=true)
 
 ### Future Development
 
