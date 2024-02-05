@@ -354,8 +354,6 @@ An interactive application was developed using Streamlit to showcase the finding
 
 The **Text Processor** is an interactive tool designed for efficient document handling. Powered by Streamlit, it provides a user-friendly interface for processing and extracting text from PDF documents. The tool offers various functionalities such as paragraph formatting, text manipulation, and content analysis.
 
-## Usage
-
 - **Uploading a PDF File**:
 
 1. Begin by uploading a PDF file using the provided file uploader.
