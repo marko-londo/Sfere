@@ -46,6 +46,7 @@
 6. [App Creation](#app-creation)
    1. [Streamlit Application](#streamlit-application)
    2. [Features of the App](#features-of-the-app)
+      - [Text Processor](#text-processor)
       - [Interactive Network Graph](#interactive-network-graph)
       - [AI-Driven Text Generation and Analysis](#ai-driven-text-generation-and-analysis)
       - [User Text Analysis](#user-text-analysis)
@@ -352,7 +353,7 @@ ___
 
 ### Features of the App
 
-#### Text Processor
+#### Text Processor:
 
 The **Text Processor** is an interactive tool designed for efficient document handling. Powered by Streamlit, it provides a user-friendly interface for processing and extracting text from PDF documents. The tool offers various functionalities such as paragraph formatting, text manipulation, and content analysis.
 
@@ -393,10 +394,13 @@ Users can select multiple processing options to tailor the output according to t
 
 Upon completion, the tool provides the option to download the processed text as a `.txt` file.
 
+
+
 - **PyMuPDF**: 
-  - The Text Processor is implemented in Python using Streamlit for the user interface. It incorporates PDF processing functions from the PyMuPDF (fitz) library and includes various text manipulation functions. The tool allows users to dynamically configure processing options, providing a versatile and user-friendly experience.
+  - The Text Processorn incorporates PDF processing functions from the PyMuPDF (fitz) library and includes various text manipulation functions. The tool allows users to dynamically configure processing options, providing a versatile and user-friendly experience.
   - For more details on PyMuPDF, visit their documentation: [PyMuPDF Documentation](https://pymupdf.readthedocs.io/en/latest/)
 
+![LIME](Images/model_demo07.png)
 
 Feel free to explore the capabilities of the Text Processor and enhance your document handling workflow!
 
