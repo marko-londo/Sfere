@@ -53,6 +53,7 @@
       - [User Text Analysis](#user-text-analysis)
         - [Challenge](#challenge)
         - [Solution](#solution)
+7. [Future Development](#future-development)
 
 
 
@@ -561,21 +562,23 @@ Strengthen user engagement with a user-friendly button that generates a random e
 
 ![Other Worlds Feature Importance](Images/model_demo06.png)
 
+___
+
 ### Future Development
 
-  - NER process refinement.
-  - Image generation in conjunction with text generation.
-  - Genre detection.
-  - Sentiment detection.
-  - Dialogue analysis.
-  - Document type selection for analysts.
-  - Robust analysis for niche document categories.
-  - User experience (UX) testing and feedback.
-  - Performance optimization strategies.
-  - Security and data protection compliance.
-  - Internationalization and localization of the app.
-  - Community engagement strategies.
-  - Implementation of analytics and reporting.
-  - Planning for sustainability and scalability.
-  - Feature for translating bodies of text into different languages.
-  - Development of an automated chatbot assistant to help users navigate the app.
+- NER process refinement.
+- Image generation in conjunction with text generation.
+- Genre detection.
+- Sentiment detection.
+- Dialogue analysis.
+- Document type selection for analysts.
+- Robust analysis for niche document categories.
+- User experience (UX) testing and feedback.
+- Performance optimization strategies.
+- Security and data protection compliance.
+- Internationalization and localization of the app.
+- Community engagement strategies.
+- Implementation of analytics and reporting.
+- Planning for sustainability and scalability.
+- Feature for translating bodies of text into different languages.
+- Development of an automated chatbot assistant to help users navigate the app.
