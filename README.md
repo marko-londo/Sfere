@@ -73,6 +73,8 @@ the "Dying Earth" series.
 
 [Back to Top](#table-of-contents)
 
+___
+
 
 ## Data Preparation
 
@@ -105,6 +107,8 @@ The initial phase of the project involves the extraction and cleaning of text da
 This preparation stage lays the groundwork for accurate and efficient feature extraction, model training, and analysis in later stages of the project.
 
 [Back to Top](#table-of-contents)
+
+___
 
 
 ## Text Normalization
@@ -193,6 +197,8 @@ This feature extraction stage is pivotal in distilling the text into analyzable
 components, setting the stage for detailed analysis and modeling.
 
 [Back to Top](#table-of-contents)
+
+___
 
 
 ## Model Development
@@ -340,6 +346,8 @@ These challenges and their resolutions highlight the complexities involved in fi
 
 [Back to Top](#table-of-contents)
 
+___
+
 
 ## App Creation
 
@@ -350,6 +358,8 @@ An interactive application was developed using Streamlit to showcase the finding
 - **Streamlit:** 
   - An open-source app framework for Machine Learning and Data Science projects.
   - For more details on Streamlit, visit their documentation: [Streamlit Documentation](https://docs.streamlit.io/)
+
+[Back to Top](#table-of-contents)
 
 ___
 
@@ -405,6 +415,8 @@ Upon completion, the tool provides the option to download the processed text as 
 ![Text Processor](Images/model_demo07.png)
 
 Feel free to explore the capabilities of the Text Processor and enhance your document handling workflow!
+
+[Back to Top](#table-of-contents)
 
 ___
 
@@ -480,6 +492,8 @@ The **NLP Text Processor** is a versatile tool for Natural Language Processing (
   - [`spacy`](https://spacy.io/api/doc)
   - [`plotly.express`](https://plotly.com/python/plotly-express/)
 
+[Back to Top](#table-of-contents)
+
 ___
 
 #### Interactive Network Graph:
@@ -488,6 +502,8 @@ ___
 - **Connection Insights**: Explore the intricate relationships of the narrative universe of Jack Vance through Named Entity Recognition (NER)
 
 ![Network Graph](Images/network_graph_demo.png)
+
+[Back to Top](#table-of-contents)
 
 ___
 
@@ -505,6 +521,8 @@ ___
   - Implements a bar graph using [LIME (Local Interpretable Model-agnostic Explanations)](https://github.com/marcotcr/lime) to display the top ten words from the generated text, sorted by feature importance. This visualization helps users understand which words most influence the stylistic alignment with the series:
   
 ![LIME](Images/model_demo02.png)
+
+[Back to Top](#table-of-contents)
 
 ___
 
@@ -543,6 +561,8 @@ This solution not only addressed the challenge of creating random yet pertinent
 prompts but also added an element of surprise and novelty to the user's
 experience with the AI-driven text generation feature.
 
+[Back to Top](#table-of-contents)
+
 ___
 
 #### Generating Text from Other Books:
@@ -564,6 +584,8 @@ Strengthen user engagement with a user-friendly button that generates a random e
 
 ![Other Worlds Feature Importance](Images/model_demo06.png)
 
+[Back to Top](#table-of-contents)
+
 ___
 
 ### Future Development
@@ -584,3 +606,5 @@ ___
 - Planning for sustainability and scalability.
 - Feature for translating bodies of text into different languages.
 - Development of an automated chatbot assistant to help users navigate the app.
+
+[Back to Top](#table-of-contents)
