@@ -427,7 +427,7 @@ The **NLP Text Processor** is a versatile tool for Natural Language Processing (
 
   The tool provides a cleaning toggle button allowing users to process the text by tokenizing and lemmatizing, while eliminating stop words and punctuation. Toggle the button to clean the text before applying other NLP features.
 
-![Text Cleaning](Images/model_demo16.png)
+  ![Text Cleaning](Images/model_demo16.png)
 
 - **Processing Features:**
 
