@@ -78,7 +78,7 @@ ___
 
 ## Data Preparation
 
-The initial phase of the project involves the extraction and cleaning of text data from various sources. This step is critical to ensure the quality and consistency of the data fed into the AI models.
+The initial phase of the project involved the extraction and cleaning of text data from various sources. This step is critical to ensure the quality and consistency of the data fed into the AI models.
 
 ### Steps:
 
@@ -113,7 +113,7 @@ ___
 
 ## Text Normalization
 
-After cleaning the texts, the next step involves text normalization. This process is essential for preparing the data for effective analysis by the AI model.
+After cleaning the texts, the next step involved text normalization. This process is essential for preparing the data for effective analysis by the AI model.
 
 ### Steps:
 
@@ -272,7 +272,7 @@ To further evaluate the model's capabilities, a validation test was conducted us
 
 - **F1-Score for Class 0 (Not Dying Earth)**:
   - An F1-Score of 0.90 indicates a strong balance between precision and recall for Class 0. This score reflects the model's overall accuracy in classifying "Stardust" as not being in the "Dying Earth" style.
-  - 
+  
 - **Absence of Class 1 (Is Dying Earth) Testing**:
   - The test did not include any "Is Dying Earth" instances, limiting the assessment to only one aspect of the model's classification capabilities.
 
