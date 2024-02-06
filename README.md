@@ -47,6 +47,7 @@
    1. [Streamlit Application](#streamlit-application)
    2. [Features of the App](#features-of-the-app)
       - [Text Processor](#text-processor)
+      - [NLP Preprocessor](#nlp-preprocessor)
       - [Interactive Network Graph](#interactive-network-graph)
       - [AI-Driven Text Generation and Analysis](#ai-driven-text-generation-and-analysis)
       - [User Text Analysis](#user-text-analysis)
@@ -355,7 +356,7 @@ ___
 
 #### Text Processor:
 
-The **Text Processor** is an interactive tool designed for efficient document handling. Powered by Streamlit, it provides a user-friendly interface for processing and extracting text from PDF documents. The tool offers various functionalities such as paragraph formatting, text manipulation, and content analysis.
+The **Text Processor** is an interactive tool designed for efficient document handling. It provides a user-friendly interface for processing and extracting text from PDF documents. The tool offers various functionalities such as paragraph formatting, text manipulation, and content analysis.
 
 - **Uploading a PDF File**:
 
@@ -400,9 +401,87 @@ Upon completion, the tool provides the option to download the processed text as 
   - The Text Processorn incorporates PDF processing functions from the PyMuPDF (fitz) library and includes various text manipulation functions. The tool allows users to dynamically configure processing options, providing a versatile and user-friendly experience.
   - For more details on PyMuPDF, visit their documentation: [PyMuPDF Documentation](https://pymupdf.readthedocs.io/en/latest/)
 
-![LIME](Images/model_demo07.png)
+![Text Processor](Images/model_demo07.png)
 
 Feel free to explore the capabilities of the Text Processor and enhance your document handling workflow!
+
+___
+
+#### NLP Preprocessor:
+
+The **NLP Text Processor** is a versatile tool for Natural Language Processing (NLP) tasks, providing a user-friendly interface. This tool facilitates various text processing and analysis functionalities, including tokenization, key phrase extraction, Named Entity Recognition (NER), dependency parsing, and sentiment analysis.
+
+- **Usage:**
+
+  1. Upload a .txt file using the provided file uploader (one processed from
+     [Text Processor](#text-processor), or your own).
+  2. Utilize the different tabs for specific NLP features:
+     - **Text Preview:** Displays the uploaded text.
+     - **Tokens:** Download tokenized text as a pickled file.
+     - **Key Phrases:** Extracts and visualizes key phrases, with customizable N-grams.
+     - **Named Entity Recognition:** Identifies and displays named entities with entity type breakdown.
+     - **Dependency Parsing:** Visualizes the dependency tree for selected sentences.
+     - **Sentiment Analysis:** Analyzes sentiment polarity and subjectivity, providing insights and visualizations.
+
+- **Text Cleaning:**
+
+  The tool provides a cleaning toggle button allowing users to process the text by tokenizing and lemmatizing, while eliminating stop words and punctuation. Toggle the button to clean the text before applying other NLP features.
+
+![Text Cleaning](Images/model_demo16.png)
+
+- **Processing Features:**
+
+  The tool leverages spaCy for comprehensive text processing:
+
+  - **Key Phrase Extraction:**
+    - Identifies and visualizes key phrases based on user-defined N-grams.
+    - Users can select the number of N-grams to analyze, enabling them to capture multi-word expressions and meaningful phrases within the text.
+    - The tool provides a bar chart illustrating the frequency of these key phrases, offering insights into the most significant terms in the document.
+    ![Key Phrase Extraction](Images/model_demo10.png)
+
+  - **Named Entity Recognition (NER):**
+    - Detects and displays named entities within the text.
+    - Provides information on entity types (e.g., persons, organizations, locations) for a comprehensive understanding of the document's content.
+    - The results are presented in a tabular format, showcasing the identified entities and their respective labels.
+    ![Named Entity Recognition (NER)](Images/model_demo11.png)
+
+  - **Dependency Parsing:**
+    - Visualizes the dependency tree structure for selected sentences.
+    - Users can interactively explore the relationships between words, identifying the syntactic dependencies that contribute to the overall meaning of the text.
+    - This feature aids in understanding how words relate to each other within a sentence.
+    ![Dependency Parsing](Images/model_demo12.png)
+
+  - **Sentiment Analysis:**
+    - Analyzes sentiment polarity and subjectivity of the text.
+    ![Sentiment Analysis 1](Images/model_demo13.png)
+    - The tool provides an overall sentiment analysis result, indicating whether the text expresses a positive, negative, or neutral sentiment.
+    ![Sentiment Analysis 2](Images/model_demo14.png)
+    - Additionally, users can explore the sentiment polarity and subjectivity for each sentence, visualized through scatter and line charts, enhancing the interpretation of sentiment trends throughout the document.
+    ![Sentiment Analysis 3](Images/model_demo15.png)
+
+- **Download Option:**
+
+  - Download tokenized text as a pickled file for further analysis.
+  ![Tokens](Images/model_demo9.png)
+
+- **Libraries Used:**
+
+  This tool utilizes Python libraries, including:
+  - `streamlit`
+  - `pandas`
+  - `spacy`
+  - `io`
+  - `re`
+  - `time`
+  - `pickle`
+  - `plotly.express`
+
+- **Installation:**
+
+  Ensure the required libraries are installed by running:
+  ```bash
+  pip install streamlit pandas spacy plotly
+
 
 ___
 
@@ -444,13 +523,13 @@ Each feature integrates Vance's rich narrative world with AI technology, providi
 
 ![User Experience](Images/model_demo04.png)
 
-#### Challenge:
+#### ***Challenge:***
 
 - **Generating Randomized Prompts:**
   - The objective was to implement a mechanism for generating seemingly random prompts to feed into the text generation model.
   - Ensuring variety and relevance in the prompts while maintaining a connection to the style of "The Dying Earth."
 
-#### Solution:
+#### ***Solution:***
 
 - **Utilization of ChatGPT:**
   - Prompted ChatGPT to create a diverse list of 200 starter prompt strings, each consisting of 3-6 tokens.
