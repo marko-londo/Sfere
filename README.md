@@ -495,7 +495,9 @@ ___
 
 - **Dynamic Text Generation**:
   - Leverages a fine-tuned GPT2LMHeadModel for generating narrative text that
-    echoes the style of "The Dying Earth" at the push of a button:
+    echoes the style of "The Dying Earth" and produces an illustration at the
+    push of a button [note: this images are sourced from a folder and not
+    instantly AI-generated *yet*]:
   
 ![Generated Text](Images/model_demo001.png)
 
