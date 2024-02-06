@@ -427,7 +427,7 @@ The **NLP Text Processor** is a versatile tool for Natural Language Processing (
 
   The tool provides a cleaning toggle button allowing users to process the text by tokenizing and lemmatizing, while eliminating stop words and punctuation. Toggle the button to clean the text before applying other NLP features.
 
-  ![Text Cleaning](Images/model_demo16.png)
+    ![Text Cleaning](Images/model_demo16.png)
 
 - **Processing Features:**
 
@@ -437,27 +437,35 @@ The **NLP Text Processor** is a versatile tool for Natural Language Processing (
     - Identifies and visualizes key phrases based on user-defined N-grams.
     - Users can select the number of N-grams to analyze, enabling them to capture multi-word expressions and meaningful phrases within the text.
     - The tool provides a bar chart illustrating the frequency of these key phrases, offering insights into the most significant terms in the document.
-    ![Key Phrase Extraction](Images/model_demo10.png)
+
+      ![Key Phrase Extraction](Images/model_demo10.png)
 
   - **Named Entity Recognition (NER):**
     - Detects and displays named entities within the text.
     - Provides information on entity types (e.g., persons, organizations, locations) for a comprehensive understanding of the document's content.
     - The results are presented in a tabular format, showcasing the identified entities and their respective labels.
-    ![Named Entity Recognition (NER)](Images/model_demo11.png)
+
+      ![Named Entity Recognition (NER)](Images/model_demo11.png)
 
   - **Dependency Parsing:**
     - Visualizes the dependency tree structure for selected sentences.
     - Users can interactively explore the relationships between words, identifying the syntactic dependencies that contribute to the overall meaning of the text.
     - This feature aids in understanding how words relate to each other within a sentence.
-    ![Dependency Parsing](Images/model_demo12.png)
+  
+      ![Dependency Parsing](Images/model_demo12.png)
 
   - **Sentiment Analysis:**
     - Analyzes sentiment polarity and subjectivity of the text.
-    ![Sentiment Analysis 1](Images/model_demo13.png)
+  
+      ![Sentiment Analysis 1](Images/model_demo13.png)
+
     - The tool provides an overall sentiment analysis result, indicating whether the text expresses a positive, negative, or neutral sentiment.
-    ![Sentiment Analysis 2](Images/model_demo14.png)
+  
+      ![Sentiment Analysis 2](Images/model_demo14.png)
+
     - Additionally, users can explore the sentiment polarity and subjectivity for each sentence, visualized through scatter and line charts, enhancing the interpretation of sentiment trends throughout the document.
-    ![Sentiment Analysis 3](Images/model_demo15.png)
+  
+      ![Sentiment Analysis 3](Images/model_demo15.png)
 
 - **Download Option:**
 
@@ -467,21 +475,9 @@ The **NLP Text Processor** is a versatile tool for Natural Language Processing (
 - **Libraries Used:**
 
   This tool utilizes Python libraries, including:
-  - `streamlit`
-  - `pandas`
-  - `spacy`
-  - `io`
-  - `re`
-  - `time`
-  - `pickle`
-  - `plotly.express`
-
-- **Installation:**
-
-  Ensure the required libraries are installed by running:
-  ```bash
-  pip install streamlit pandas spacy plotly
-
+  - [`pandas`](https://pandas.pydata.org/docs/)
+  - [`spacy`](https://spacy.io/api/doc)
+  - [`plotly.express`](https://plotly.com/python/plotly-express/)
 
 ___
 
