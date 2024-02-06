@@ -497,7 +497,7 @@ ___
   - Leverages a fine-tuned GPT2LMHeadModel for generating narrative text that
     echoes the style of "The Dying Earth" at the push of a button:
   
-![Generated Text](Images/model_demo01.png)
+![Generated Text](Images/model_demo001.png)
 
 - **Explanation with LIME**:
   - Implements a bar graph using [LIME (Local Interpretable Model-agnostic Explanations)](https://github.com/marcotcr/lime) to display the top ten words from the generated text, sorted by feature importance. This visualization helps users understand which words most influence the stylistic alignment with the series:
