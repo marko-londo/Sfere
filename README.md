@@ -485,7 +485,7 @@ The **NLP Text Processor** is a versatile tool for Natural Language Processing (
 - **Download Option:**
 
   - Download tokenized text as a pickled file for further analysis.
-  ![Tokens](Images/model_demo9.png)
+  ![Tokens](Images/model_demo09.png)
 
 - **Libraries Used:**
 
