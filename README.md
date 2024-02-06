@@ -471,15 +471,14 @@ The **NLP Text Processor** is a versatile tool for Natural Language Processing (
 
   - **Sentiment Analysis:**
     - Analyzes sentiment polarity and subjectivity of the text.
+    - The tool provides an overall sentiment analysis result, indicating whether the text expresses a positive, negative, or neutral sentiment.
   
       ![Sentiment Analysis 1](Images/model_demo13.png)
 
-    - The tool provides an overall sentiment analysis result, indicating whether the text expresses a positive, negative, or neutral sentiment.
+    - Additionally, users can explore the sentiment polarity and subjectivity for each sentence, visualized through scatter and line charts, enhancing the interpretation of sentiment trends throughout the document.
   
       ![Sentiment Analysis 2](Images/model_demo14.png)
 
-    - Additionally, users can explore the sentiment polarity and subjectivity for each sentence, visualized through scatter and line charts, enhancing the interpretation of sentiment trends throughout the document.
-  
       ![Sentiment Analysis 3](Images/model_demo15.png)
 
 - **Download Option:**
